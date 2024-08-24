@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 50px;
+    background-color: #011024;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    position: static;
+    /* border: 1px solid #fff; */
+    width: 50vw;
+    height: 50px;
+}
+
+.content-justify-end{
+    justify-content: flex-end;
+}
+
+.content-justify-start{
+    justify-content: flex-start;
+}
+
+.left-margin{
+    margin-left: 60px;
+}
+
+.top-left-contact-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: static;
+    width: 30px;
+    height: 50px;
+}
+
+.top-left-contact-logo > img{
+    width: 20px;
+    height: 15px;
+}
+
+.top-left-contact{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: static;
+    width: 140px;
+    height: 50px;
+}
+
+.text-hovering:hover{
+    color: #029e27;
+}
+
+.top-text{
+    font-size: small;
+    color: #fff;
+}
+
+.img-hovering:hover{
+    opacity: 80%;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+    box-sizing: border-box;
+    width: 48vw;
+    height: 50px;
+}
+
+.facebook-div{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: static;
+}
+
+.facebook-container{
+    height: 50px;
+    width: 30px;
+}
+
+.linkedin-container{
+    height: 50px;
+    width: 120px;
+}
+
+
+.fb{
+    padding-top: 15px ;
+    width: 10px;
+    height: 15px;
+}
+
+.in{
+    padding-right: 90px;
+    padding-top: 15px ;
+    width: 15px;
+    height: 13px; 
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    border-bottom: 1px solid rgb(233, 224, 224);
+}
+
+
+.logo-div{
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 260px;
+    box-sizing: border-box;
+    position: static;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+}
+
+.navbar-text{
+    color: #011024;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.about{
+    margin-left: 100px;
+}
+
+.team{
+    margin-left: 63.2px;
+}
+
+.member{
+    margin-left: 63.2px;
+    color: #fff;
+    padding: 9px;
+    letter-spacing: 1.2px;
+    background-color: #029e27;
+    border-radius: 5px;
+}
+
+.member:hover{
+    background-color:  #011024;
+}
+
+

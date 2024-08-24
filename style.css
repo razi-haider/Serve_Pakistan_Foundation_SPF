@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    height: 50px;
+    background-color: #011024;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    position: static;
+    height: 50px;
+    width: 1290px;
+    /* border: 1px solid green; */
+}
+
+.top-left-contact-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid #fff; */
+    position: static;
+    width: 30px;
+    height: 50px;
+}
+
+.top-left-contact-logo > img{
+    width: 20px;
+    /* border: 1px solid #fff; */
+    height: 15px;
+}
+
+.top-left-contact{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid #fff; */
+    position: static;
+    width: 140px;
+    height: 50px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid #fff; */
+    position: static;
+    width: 300px;
+    height: 50px;
+    margin-right: 568px;
+}
+
+.text-hovering:hover{
+    color: #029e27;
+}
+
+.top-text{
+    font-size: small    ;
+    color: #fff;
+}
+
+.img-hovering:hover{
+    opacity: 80%;
+}
+
+.facebook-div{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: static;
+    /* border: 1px solid #fff; */
+}
+
+.fb{
+    width: 10px;
+    /* border: 1px solid #fff; */
+    height: 13px;
+    margin-right: 20px;
+}
+
+.in{
+    width: 13px;
+    /* border: 1px solid #fff; */
+    height: 13px; 
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    position: static;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid red; */
+}
+
+
+.logo-div{
+    /* margin-left: 95px; */
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 260px;
+    box-sizing: border-box;
+    /* border: 1px solid purple;     */
+    position: static;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+}
+
+.navbar-text{
+    color: #011024;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.about{
+    margin-left: 100px;
+}
+
+.team{
+    margin-left: 63.2px;
+}
+
+.member{
+    margin-left: 63.2px;
+    color: #fff;
+    padding: 9px;
+    letter-spacing: 1.2px;
+    background-color: #029e27;
+    border-radius: 5px;
+}
+
+.member:hover{
+    background-color:  #011024; 
+}
+
+/* main-cover */
+
+.main-cover-div{
+    display: flex;
+    justify-content: center;
+}
+
+.div-a{
+    display: flex;
+    /* justify-content: center;  */
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid green; */
+}
+
+.div-0{ 
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 80px;
+    color: #011024;
+}
+
+.abt{
+    font-weight: medium;
+    font-size: 25px;
+    /* border: 2px solid green; */
+}
